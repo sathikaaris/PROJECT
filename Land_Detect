@@ -1,0 +1,5 @@
+from langdetect import detect
+
+text = "संघर्षों की धूप में जो जलते, वह बुझ भी जाएं अगर तो भी रोशनी करते..!"
+language = detect(text)
+print("Detected language: ", language)
