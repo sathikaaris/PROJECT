@@ -1,0 +1,11 @@
+from plyer import notification
+
+title = "Notification title"
+message = "This is a sample notification."
+
+notification.notify(
+    title=title,
+    message=message,
+    app_name="Python Notification App",
+    timeout=10,
+)
